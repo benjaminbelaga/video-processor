@@ -1,0 +1,78 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+data/input/*/
+data/output/*/
+data/temp/*/
+*.log
+*.tmp
+
+# FFmpeg temporary files
+temp_rotation_*
+concat_list_*
+/tmp/ffmpeg_*_error.log
+
+# Processing logs (keep structure but ignore content)
+data/output/processing_log.txt
+
+# Credentials and secrets
+token.pickle
+*.json
+credentials/
+.credentials/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.backup
+*.bak
+*.orig
+
+# Compressed files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Audio/Video test files (except examples)
+*.mp3
+*.wav
+*.aif
+*.mp4
+*.mov
+*.avi
+!examples/*.mp4
+!examples/*.wav
+
+# Image files (except examples)
+*.jpg
+*.jpeg
+*.png
+*.gif
+!examples/*.jpg
+!examples/*.png

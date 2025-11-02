@@ -180,6 +180,18 @@ video-processor/
 - ✨ **NEW**: System resource monitoring
 - 🐛 **FIXED**: Long track processing failures (>100 rotations)
 - 🚀 **IMPROVED**: 99.9% success rate vs 85% in v2.0.x
+## Troubleshooting
+
+### Common Issues
+
+**Issue:** Script fails with permission error  
+**Solution:** Run `chmod +x process-video.sh`
+
+**Issue:** Output video has no audio  
+**Solution:** Check FFmpeg installation: `ffmpeg -version`
+
+**Issue:** Processing takes too long  
+**Solution:** Use GPU acceleration with `-hwaccel` flag
 - 📊 **ADDED**: Performance metrics and audit trail
 
 [View full changelog →](CHANGELOG.md)
